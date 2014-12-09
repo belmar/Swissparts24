@@ -480,6 +480,7 @@ h6,
   background-color: rgba(16, 16, 17, 0.9);
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .site-title {
@@ -1642,7 +1643,65 @@ div.gform_wrapper form li {
 	opacity:.75;
 }
 
+.swissparts24-contact-us{
+  width: 394px;
+  position: absolute;
+  background: rgba(12,113,157,.9);
+  right:0;
+  margin-top:60px;
+  list-style: none!important;
+}
 
+.swissparts24-img{
+  width: 394px;
+  position: absolute;
+  background: rgba(0,0,0,.95);
+  right:0;
+  height:108px;
+  padding: 20px 40px;
+  margin-top: 570px;
+}
+
+#ul-container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swissparts24-contact-us li{
+  font-size: 18px;
+  color: #fff;
+  list-style: none!important;
+  padding: 10px 65px 15px;
+  margin-bottom: 10px;
+  line-height:20px;
+}
+
+
+.swissparts24-contact-us li.mail{
+  margin-top:20px;
+  background: url(images/swiss.mail.png) top left no-repeat;
+}
+
+.swissparts24-contact-us li.mobile{
+  background: url(images/swiss.mobile.png) top left no-repeat;
+}
+
+.swissparts24-contact-us li.call{
+  background: url(images/swiss.call.png) top left no-repeat;
+}
+
+.swissparts24-contact-us li.print{
+  background: url(images/swiss.print.png) top left no-repeat;
+}
+
+.swissparts24-contact-us li.place{
+  background: url(images/swiss.place.png) top left no-repeat;
+}
+
+.swissparts24-contact-us li.time{
+  background: url(images/swiss.time.png) top left no-repeat;
+}
 
 /*.swissparts24-order-form .gform_next_button,
 .swissparts24-order-form .gform_previous_button,
