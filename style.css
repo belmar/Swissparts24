@@ -1707,7 +1707,7 @@ div.gform_wrapper form li {
 	left:0;
 }
 .rsOverflow{
-	float:right;
+	float:right!important;
 }
 
 /*.swissparts24-order-form .gform_next_button,
