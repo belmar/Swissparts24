@@ -1703,6 +1703,13 @@ div.gform_wrapper form li {
   background: url(images/swiss.time.png) top left no-repeat;
 }
 
+.rs-gallery-thumbs-grid .rsThumbs{
+	left:0;
+}
+.rsOverflow{
+	float:right;
+}
+
 /*.swissparts24-order-form .gform_next_button,
 .swissparts24-order-form .gform_previous_button,
 .swissparts24-order-form .gf_progressbar_wrapper{
